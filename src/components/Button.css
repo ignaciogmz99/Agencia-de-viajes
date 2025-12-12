@@ -1,0 +1,54 @@
+/* ===== ESTILO BASE ===== */
+.btn {
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* ===== TAMAÑOS ===== */
+.btn-small {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.btn-medium {
+  padding: 10px 18px;
+  font-size: 16px;
+}
+
+.btn-large {
+  padding: 14px 26px;
+  font-size: 18px;
+}
+
+/* ===== VARIANTES ===== */
+.btn-primary {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #5c636a;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #0d6efd;
+  color: #0d6efd;
+}
+
+.btn-outline:hover {
+  background-color: #0d6efd;
+  color: white;
+}
